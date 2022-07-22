@@ -131,12 +131,6 @@
                         <span data-key="t-profile">Профиль</span>
                     </a>
                 </li>
-                <li>
-                    <a href="/plans">
-                        <i class='bx bx-wallet-alt'></i>
-                        <span data-key="t-profile">Тарифы</span>
-                    </a>
-                </li>
                 <?php if ($_SESSION["role"] == 'admin') { ?>
                     <li>
                         <a href="/users">
